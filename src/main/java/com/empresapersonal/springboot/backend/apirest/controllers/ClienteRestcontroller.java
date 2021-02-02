@@ -11,8 +11,8 @@ import com.empresapersonal.springboot.backend.apirest.models.entity.Cliente;
 import com.empresapersonal.springboot.backend.apirest.models.services.IClienteService;
 
 @RestController
-@RequestMapping
-public class ClienteRestcontroller {
+@RequestMapping("/api")
+public class ClienteRestController {
 	
 	@Autowired
 	private IClienteService clienteService;
